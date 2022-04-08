@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>Homepage</title>
+    <link href="./profile.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+      </ol>
+    </nav>
+  <body>
+    <div class="flexbox1">
+        <div class="paragraph">
+            <p>Fort Collins is nestled against the foothills of the Rocky Mountains and alongside the banks of the Cache la Poudre River. The city lies approximately 5,000 feet above sea level. Residents enjoy a moderate, four season climate with an average of 300 days of sunshine and 14.5 inches of precipitation a year.</p><br>
+            <p>Check out our randomizer for restaurants you should eat at!</p>
+            <button id="random">Get Random Restaurant</button>
+            <ul id="restaurant-list">
+            </ul>
+        </div>
+        
+        
+        
+        <div class="flexbox2">
+            <a href="https://www.tripadvisor.com/Restaurants-g33423-Fort_Collins_Colorado.html" target="_blank">Local Restaurants</a>
+            <a href="https://www.fcgov.com/parks/" target="_blank">Local Parks</a>
+            <a href="https://fortcollinschamber.com/business-advocacy/small-business-resources/" target="_blank">Small Businesses</a>
+            
+        </div>
+ 
+    
+    
+    <div class="contact-us">
+        <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+    <label for="country">Interest</label>
+    <select id="country" name="country">
+    <option value="restaurants">Restaurants</option>
+    <option value="parks">Parks</option>
+    <option value="businesses">Businesses</option>
+    </select>
+    
+    <label for="subject">Get Recommendation</label>
+    
+    <input type="submit" value="Submit" >
+    
+    </form>
+    </div>
+    
+       </div>
+       <script src="./home.js"></script>
+</body>
+</html>
